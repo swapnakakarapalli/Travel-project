@@ -1,0 +1,378 @@
+/* vedio */
+
+.content {
+    background-color: rgba(0, 0, 0, 0.726);
+
+}
+
+/* logo */
+.logo_img_size {
+    width: 100px;
+}
+
+@media (max-width:992px) {
+    .logo_img_size {
+        width: 50px;
+    }
+}
+
+.banner_heading {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-container input,
+.search-container select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    /* Change to your preferred color */
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+    /* Darker shade on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Latest Blog Posts */
+
+.BlogPosts {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.BlogPosts h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+/* 
+.blog-snippets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+} */
+
+.blog-snippet {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.blog-snippet img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.blog-snippet h3 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+}
+
+.blog-snippet p {
+    font-size: 16px;
+    color: #555;
+    margin: 0 15px 15px;
+}
+
+.read-more {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background-color: #c0392b;
+}
+
+.blog-snippet:hover {
+    transform: translateY(-5px);
+}
+.blog-snippet span {
+    font-size: 12px;
+    color: #ece90a;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.travel-tips-section {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.travel-tips-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.tip-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    text-align: center;
+}
+
+.tip-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.tip-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tip-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .travel-tips-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tip-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Stay Updated on the Latest Offers! */
+.newsletter-signup {
+    padding: 50px 30px;
+    text-align: center;
+    background-color: rgb(18, 18, 92);
+}
+
+.newsletter-signup h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    /* Adjust width as needed */
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    /* Change to your preferred color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.subscribe-button:hover {
+    background-color: #c0392b;
+    /* Darker shade on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quick-links,
+.social-media,
+.contact-info,
+.newsletter-signup {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: rgb(255, 208, 0);
+}
+.contact-info p:hover {
+    color: rgb(255, 208, 0);
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.bgnd {
+    background-color: #333;
+}
+
+.newsletter-signup form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-signup input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    /* Adjust width as needed */
+}
+
+.subscribe-button {
+    padding: 10px 15px;
+    background-color: #ff5733;
+    /* Change to your preferred color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #c0392b;
+    /* Darker shade on hover */
+}

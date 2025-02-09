@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destination.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Destination</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/4f1bb0da8e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+    <!-- Header  -->
+    <div class="card text-bg-dark">
+        <img src="https://www.newdelhiairport.in/media/2160/top-travel-destinations-to-visit-before-turning-40.jpg" />
+        <div class="card-img-overlay content">
+            <div class="container">
+                <div class="row py-2 ">
+                    <div class="d-none d-md-inline-block col-md-2">
+                        <i class="bi bi-telephone-fill px-2"></i><span>+919888572737</span>
+                    </div>
+                    <div class="d-none d-md-inline-block col-md-3">
+                        <i class="bi bi-envelope px-2"></i><span>ops@pybtravels.com</span>
+                    </div>
+                </div>
+                <div class="row py-sm-3 py-md-5">
+                    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                        <a href="./index.html" class="navbar-brand">
+                            <img class="logo_img_size d-md-none" src="assets/logo-white.png" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+                            <ul class="navbar-nav nav-underline  navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link text-white">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./destination.html" class="nav-link active text-white">DESTINATIONS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./packages.html" class="nav-link text-white">PACKAGES</a>
+                                </li>
+                                <a href="./index.html" class="navbar-brand">
+                                    <img class="logo_img_size d-none d-md-inline-block" src="assets/logo-white.png"
+                                        alt="">
+                                </a>
+                                <li class="nav-item">
+                                    <a href="./AboutUs.html" class="nav-link text-white">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./Blog.html" class="nav-link text-white">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./ContactUs.html" class="nav-link text-white">CONTACT US</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </nav>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="text-warning banner_heading">Explore Destinations</h1>
+                        <p class="">All you need to do is experience the best of the destination!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Destinations  -->
+    <section class="destinations-highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://www.viceroybali.com/wp-content/uploads/2024/11/Bali-Trip-Cost-1.webp"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Bali</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://discoverkullumanali.in/wp-content/uploads/2015/07/ropeway-at-solang-near-manali-discover-kullu-manali-www.discoverkullumanali.in_-531x354.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Manali</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://s7ap1.scene7.com/is/image/incredibleindia/1-palolem-beach-goa-goa-city-hero?qlt=82&ts=1726735654599"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Goa</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1200px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Jaipur</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://s3.india.com/wp-content/uploads/2024/04/Feature-Image_-Ooty-1.jpg##image/jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Ooty</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/d/d9/KSR_Steam_special_at_Taradevi_05-02-13_56.jpeg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Shimla</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Coorg_-_The_Scotland_of_India.jpg/250px-Coorg_-_The_Scotland_of_India.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Coorg</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://cdn.britannica.com/13/189813-050-BF6163E7/Manikarnika-Ghat-cremation-site-Hindu-Ganges-River.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Varanasi</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/9/96/DarjeelingTrainFruitshop_%282%29.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Darjeeling</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Munnar_hill_station_.JPG/1200px-Munnar_hill_station_.JPG"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Munnar</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://cdn.britannica.com/36/135436-050-ED1D0FCE/skyline-Eiffel-Tower-France-Paris.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Paris</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://deih43ym53wif.cloudfront.net/dubai-palm-jumeirah-island-shutterstock_1291548640.jpg_3ab124c2b9.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Dubai</h4>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8fAEfNthjP8PyMhRD-cDe87Ismf767PTrHRB4i7pmYqKgUW3y"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Barcelona</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Machu Picchu</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/288px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">New York</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://wallpapers.com/images/featured/maldives-23wyvlaqa7aydqny.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Maldives</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://t4.ftcdn.net/jpg/02/09/82/45/360_F_209824591_K05Tob490TmBlTekkPlNrxh1Hy7IKMTU.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Singapore</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">Grand Canyon</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="product-category">
+                        <div class="category-image">
+                            <a href="./bali.html"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/278px-London_Skyline_%28125508655%29.jpeg"
+                                    alt="Bali"></a>
+                        </div>
+                        <h4 class="py-3">London</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers  -->
+    <section class="container-fluid bg-body-secondary p-5">
+        <div id="caurosel_offers" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#caurosel_offers" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#caurosel_offers" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#caurosel_offers" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="container card py-3">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <img class="w-100 rounded" src="assets/travel.jpg" alt="">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="card-body">
+                                    <h1 class="card-title">Take a Quick Trip to Visa-Free Destinations NOW</h1>
+                                    <p class="card-text">with our holiday packages.</p>
+                                    <button type="button" class="cta-button rounded"><i
+                                            class="bi bi-telephone-fill px-2"></i>Book
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="container card py-3">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <img class="w-100 rounded"
+                                    src="https://www.travelbeak.com/images/destinations/family.jpg" alt="">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="card-body">
+                                    <h1 class="card-title">We Have Family-Special Theme Park Packages for You...</h1>
+                                    <p class="card-text">Book with us & enjoy limitless fun this summer.</p>
+                                    <button type="button" class="cta-button rounded"><i
+                                            class="bi bi-telephone-fill px-2"></i>Book
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container card py-3">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <img class="w-100 rounded"
+                                    src="https://media02.stockfood.com/largepreviews/MjE4MjkxNDYzMQ==/70416601-France-Europe-travel-Paris-City-Eiffel-Tower-Statue-Liberty-Seine-River-architecture-art-artistic-history.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="card-body">
+                                    <h1 class="card-title">Experience Europe with The Best! </h1>
+                                    <p class="card-text">Book packages starting @ ₹1,50,000 incl. flights.</p>
+                                    <button type="button" class="cta-button rounded"><i
+                                            class="bi bi-telephone-fill px-2"></i>Book
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#caurosel_offers" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#caurosel_offers" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Map & customer info -->
+    <section class="container-fluid">
+        <div class="row card-group">
+            <div class="col-12 col-md-6 card">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15264.23643327079!2d82.22549908501686!3d16.971642614879325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a382814b5d0e193%3A0x6c2571426b243af5!2sBhanugudi%20Junction%2C%20Police%20Quarters%2C%20Kakinada%2C%20Andhra%20Pradesh%20533003!5e0!3m2!1sen!2sin!4v1718698440488!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 col-md-6 card  bg-warning py-3">
+                <h1 class="customer_info text-center">LEAVE US YOUR INFO</h1>
+                <p class="customer_info_para  text-center">and we will get back to you.</p>
+                <div class="container">
+                    <div class="row">
+                        <form action="submit.html" onsubmit="return validate()">
+                            <div class="col-12">
+                                <input type="text" class="form-control mb-3" name="username" id="username"
+                                    placeholder="Enter Name*" />
+                                <p id="nameError"></p>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control mb-3" name="MobileNumber" id="mobilenumber"
+                                    placeholder="Enter Number*" />
+                                <p id="mobileError"></p>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control mb-3" name="Email" id="email"
+                                    placeholder="Email Address*" />
+                                <p id="emailError"></p>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control mb-3" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea name="" id="" class="form-control mb-3" rows="5" cols="30"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12 d-grid gap-2 ">
+                                <input type="submit" name="" id="" class="cta-button rounded" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- customer photos -->
+    <section class="container-fluid">
+        <div class="card-group">
+            <div class="card">
+                <img src="https://pybtravels.com/wp-content/uploads/2021/03/Homepage-Client-Image-1-550x500.jpeg"
+                    class="card-img-top w-100" alt="...">
+            </div>
+            <div class="card">
+                <img src="https://pybtravels.com/wp-content/uploads/2021/03/Homepage-Client-Image-2-550x500.jpeg"
+                    class="card-img-top w-100" alt="...">
+            </div>
+            <div class="card">
+                <img src="https://pybtravels.com/wp-content/uploads/2021/03/Homepage-Client-Image-3-550x500.jpeg"
+                    class="card-img-top w-100" alt="...">
+            </div>
+            <div class="card">
+                <img src="https://pybtravels.com/wp-content/uploads/2021/03/Homepage-Client-Image-4-550x500.jpeg"
+                    class="card-img-top w-100" alt="...">
+            </div>
+            <div class="card">
+                <img src="https://pybtravels.com/wp-content/uploads/2021/03/Homepage-Client-Image-5-550x500.jpeg"
+                    class="card-img-top w-100" alt="...">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="quick-links">
+                <h3 class="text-warning">Quick Links</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3 class="text-warning">Follow Us</h3>
+                <a href="#"><img class="rounded" src="assets/followus1.png" alt="Facebook"></a>
+                <!-- Replace with your icon URLs -->
+                <a href="#"><img class="rounded" src="assets/followus2.png" alt="Instagram"></a>
+                <a href="#"><img class="rounded" src="assets/followus5.jpg" alt="Twitter"></a>
+                <a href="#"><img class="rounded" src="assets/followus4.png" alt="LinkedIn"></a>
+            </div>
+            <div class="contact-info">
+                <h3 class="text-warning">Contact Us</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Travel St, Kakinada City</p>
+            </div>
+            <div class="bgnd">
+                <h3 class="text-warning">Subscribe to Our Newsletter</h3>
+                <form action="#" method="post">
+                    <input class="form-control mb-3" type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="destination.js"></script>
+
+</body>
+
+</html>

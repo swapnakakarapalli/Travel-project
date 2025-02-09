@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Pack Your Bags</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/4f1bb0da8e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+    <!-- Header  -->
+    <div class="card text-bg-dark">
+        <video class="card-img" src="assets/home.mp4" loop autoplay muted></video>
+        <div class="card-img-overlay content">
+            <div class="container">
+                <div class="row py-2 ">
+                    <div class="d-none d-md-inline-block col-md-2">
+                        <i class="bi bi-telephone-fill px-2"></i><span>+919888572737</span>
+                    </div>
+                    <div class="d-none d-md-inline-block col-md-3">
+                        <i class="bi bi-envelope px-2"></i><span>ops@pybtravels.com</span>
+                    </div>
+                </div>
+                <div class="row py-sm-3 py-md-5">
+                    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                        <a href="./index.html" class="navbar-brand">
+                            <img class="logo_img_size d-md-none" src="assets/logo-white.png" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+                            <ul class="navbar-nav nav-underline  navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link active text-white">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./destination.html" class="nav-link text-white">DESTINATIONS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./packages.html" class="nav-link text-white">PACKAGES</a>
+                                </li>
+                                <a href="./index.html" class="navbar-brand">
+                                    <img class="logo_img_size d-none d-md-inline-block" src="assets/logo-white.png"
+                                        alt="">
+                                </a>
+                                <li class="nav-item">
+                                    <a href="./AboutUs.html" class="nav-link text-white">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./Blog.html" class="nav-link text-white">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./ContactUs.html" class="nav-link text-white">CONTACT US</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </nav>
+
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="text-warning banner_heading">Explore the World with Us!</h1>
+                        <p>Your adventure awaits. Discover breathtaking destinations and unforgettable experiences.</p>
+                    </div>
+                </div>
+                <div class="d-none d-md-flex search-container">
+                    <input type="text" placeholder="Destination">
+                    <input type="date" placeholder="Travel Dates">
+                    <select>
+                        <option value="">Type of Trip</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="relaxation">Relaxation</option>
+                        <option value="culture">Culture</option>
+                        <option value="family">Family</option>
+                    </select>
+                    <a href="./destination.html"> <button class="cta-button">Start Your Journey</button></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-md-none start_journey">
+        <div class="row m-5">
+            <input class="form-control mb-3" type="text" placeholder="Destination">
+            <input class="form-control mb-3" type="date" placeholder="Travel Dates">
+            <select class="form-control mb-3">
+                <option value="">Type of Trip</option>
+                <option value="adventure">Adventure</option>
+                <option value="relaxation">Relaxation</option>
+                <option value="culture">Culture</option>
+                <option value="family">Family</option>
+            </select>
+            <a href="./destination.html"> <button class="cta-button">Start Your Journey</button></a>
+
+        </div>
+    </div>
+
+    <!-- Top Destinations  -->
+    <section class="top-destinations">
+        <h2 class="text-warning">Top Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSljEJ53Q56AHpS5GzqWbHPOQF-aT8K_zBKBg&s"
+                    alt="Destination 1">
+                <h3>Beach Paradise</h3>
+                <p class="text-secondary">Enjoy sun-soaked beaches and crystal-clear waters.</p>
+                <a href="" class="view-more">View More</a>
+            </div>
+            <div class="destination-card">
+                <img src="https://media.vrbo.com/lodging/35000000/34090000/34085300/34085222/c595cbc5.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+                    alt="Destination 2">
+                <h3>Mountain Retreat</h3>
+                <p class="text-secondary">Experience the beauty of nature in the mountains.</p>
+                <a href="" class="view-more">View More</a>
+            </div>
+            <div class="destination-card">
+                <img src="https://www.noblehousetours.com/wp-content/uploads/2020/09/Varanasi-cultural-city-in-india.jpg"
+                    alt="Destination 3">
+                <h3>Cultural City</h3>
+                <p class="text-secondary">Discover rich history and vibrant culture.</p>
+                <a href="" class="view-more">View More</a>
+            </div>
+            <div class="destination-card">
+                <img src="https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/ejgcq0acumqaosd7kl26?_a=BACADKGT"
+                    alt="Destination 4">
+                <h3>Adventure Land</h3>
+                <p class="text-secondary">Thrilling activities for adventure seekers.</p>
+                <a href="" class="view-more">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us?  -->
+    <section class="why-choose-us">
+        <div>
+            <h2 class="text-warning">Why Choose Us?</h2>
+            <div class="owl-carousel">
+                <div class="item p-3 h-100">
+                    <div class="feature-card">
+                        <div class="d-flex justify-content-center">
+                            <img class="w-25"
+                                src="https://img.freepik.com/premium-vector/best-price-guaranteed-rubber-stamp_485380-1961.jpg?semt=ais_hybrid"
+                                alt="Best Price Guarantee">
+                        </div>
+                        <h3>Best Price Guarantee</h3>
+                        <p class="text-secondary">We ensure you get the best rates available.</p>
+                    </div>
+                </div>
+                <div class="item  p-3 h-100">
+                    <div class="feature-card">
+                        <div class="d-flex justify-content-center">
+                            <img class="w-25"
+                                src="https://aicontentfy.com/hubfs/Blog/a%20handshake%20in%20flat%20illustration%20style%20with%20gradients%20and%20white%20background_compressed%208647e34e-7dc1-4b2f-bd87-055b088d1640.jpg"
+                                alt="Personalized Experiences">
+                        </div>
+                        <h3>Personalized Experiences</h3>
+                        <p class="text-secondary">Your travel needs are unique; we tailor experiences just for you.</p>
+
+                    </div>
+                </div>
+                <div class="item p-3 h-100">
+                    <div class="feature-card">
+                        <div class="d-flex justify-content-center">
+                            <img class="w-25"
+                                src="https://img.freepik.com/premium-vector/customer-support-service-24-7-chat-icons-call-center-logo-hotline-concept-vector-illustration_476325-755.jpg"
+                                alt="24/7 Support">
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p class="text-secondary">Our team is available around the clock for any assistance.</p>
+                    </div>
+                </div>
+                <div class="item p-3 h-100">
+                    <div class="feature-card">
+                        <div class="d-flex justify-content-center">
+                            <img class="w-25" src="https://curlytales.com/wp-content/uploads/2024/06/Cover-Image-49.jpg"
+                                alt="Flexible Booking">
+                        </div>
+                        <h3>Flexible Booking</h3>
+                        <p class="text-secondary">Change your plans? No worries! We offer flexible booking options.</p>
+                    </div>
+                </div>
+                <div class="item p-3 h-100">
+                    <div class="feature-card">
+                        <div class="d-flex justify-content-center">
+                            <img class="w-25"
+                                src="https://static.vecteezy.com/system/resources/previews/013/021/673/non_2x/exclusive-deal-banner-design-template-business-concept-flat-illustration-vector.jpg"
+                                alt="Exclusive Deals">
+                        </div>
+                        <h3>Exclusive Deals</h3>
+                        <p class="text-secondary">Get access to deals you won't find anywhere else.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Packages/Offers  -->
+    <section class="featured-packages">
+        <h2 class="text-warning">Featured Packages/Offers</h2>
+        <div class="packages-grid">
+            <div class="package-card">
+                <img src="https://markstraveljournal.me/wp-content/uploads/2022/10/beach-pexels-julius-silver-753626.jpg?w=1024"
+                    alt="Package 1">
+                <h3>Beach Getaway</h3>
+                <p class="price text-warning">Rs499</p>
+                <a href="" class="learn-more">Learn More</a>
+            </div>
+            <div class="package-card">
+                <img src="https://drifttravel.com/wp-content/uploads/2021/08/Picture1.jpg" alt="Package 2">
+                <h3>Mountain Adventure</h3>
+                <p class="price text-warning">Rs599</p>
+                <a href="" class="learn-more">Learn More</a>
+            </div>
+            <div class="package-card">
+                <img src="https://www.girlabouttheglobe.com/wp-content/uploads/2019/06/dancer-1807516_1280-718x479.jpg"
+                    alt="Package 3">
+                <h3>Cultural Experience</h3>
+                <p class="price text-warning">Rs399</p>
+                <a href="" class="learn-more">Learn More</a>
+            </div>
+            <div class="package-card">
+                <img src="https://www.parent.com/cdn/shop/articles/family-on-vacation_1000x.jpg?v=1716220352"
+                    alt="Package 4">
+                <h3>Family Fun Trip</h3>
+                <p class="price text-warning">Rs699</p>
+                <a href="" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="mb-2 count-bg">
+        <div class="d-flex justify-content-evenly p-3">
+            <div class="count-size">
+                <h1><span class="text-count" id="destinations">150</span>+ </h1>
+                <p>Destinations</p>
+            </div>
+            <div class="count-size">
+                <h1><span class="text-count" id="holidays">500</span>+ </h1>
+                <p>Honeymoons &<br> Holidays planned</p>
+            </div>
+            <div class="count-size">
+                <h1><span class="text-count" id="services">1500</span>+ </h1>
+                <p>Days in Service</p>
+            </div>
+            <div class="count-size">
+                <h1><span class="text-count" id="complaints">0</span>+ </h1>
+                <p>Complaints</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Travel Inspiration  -->
+    <section class="travel-inspiration">
+        <h2 class="text-warning">Travel Inspiration</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-4 p-3">
+                <div class="blog-snippet">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL7qkTT_4MRgeHefO2SlEPCjL-x1pNL767NQ&s"
+                        alt="Blog Post 1">
+                    <h3>Top 10 Travel Tips</h3>
+                    <p class="text-secondary">Discover essential tips to make your travel experience smoother and more
+                        enjoyable.</p>
+                    <a href="" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-3">
+                <div class="blog-snippet">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LGScv8yu1WRtAzIau0g7_yoepSGcNB1xFw&s"
+                        alt="Blog Post 2">
+                    <h3>Exploring Hidden Gems</h3>
+                    <p class="text-secondary">Uncover unique destinations off the beaten path for your next adventure.
+                    </p>
+                    <a href="" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-3">
+                <div class="blog-snippet">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUTGigX3T-IxO-ygP9iAywEK2gY8OPp692EA&s"
+                        alt="Blog Post 3">
+                    <h3>Cultural Highlights of Europe</h3>
+                    <p class="text-secondary">Experience the rich cultures and traditions across Europe’s diverse
+                        regions.
+                    </p>
+                    <a href="" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Our Customers Say  -->
+    <section class="testimonials d-flex flex-column justify-content-center">
+        <div>
+            <h2 class="text-warning pb-3 text-center">What Our Customers Say</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item text-center p-3 h-100">
+                    <div class="testimonial-item">
+                        <p class="text-secondary">"Had an amazing experience! Everything was perfectly organized."</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/customers.png" alt="Customer 1" class="w-25 mx-3">
+                            <div>
+                                <h5>Vasantha Bhat</h5>
+                                <div class="rating">
+                                    <span>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item text-center p-3 h-100">
+                    <div class="testimonial-item">
+                        <p class="text-secondary">"Best travel service ever! Highly recommend to everyone."</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/customers-1.png" alt="Customer 1" class="w-25 mx-3">
+                            <div>
+                                <h5>Archy Gupta</h5>
+                                <div class="rating">
+                                    <span>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item text-center p-3 h-100">
+                    <div class="testimonial-item">
+                        <p class="text-secondary">"Exceptional service and unforgettable experiences!"</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/customers-2.png" alt="Customer 1" class="w-25 mx-3">
+                            <div>
+                                <h5>Harish kumar</h5>
+                                <div class="rating">
+                                    <span>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item text-center p-3 h-100">
+                    <div class="testimonial-item">
+                        <p class="text-secondary">"Had an amazing experience! Everything was perfectly organized."</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/customers-3.png" alt="Customer 1" class="w-25 mx-3">
+                            <div>
+                                <h5>Amritanjali</h5>
+                                <div class="rating">
+                                    <span>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item text-center p-3 h-100">
+                    <div class="testimonial-item">
+                        <p class="text-secondary">"Best travel service ever! Highly recommend to everyone."</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/customers-4.png" alt="Customer 1" class="w-25 mx-3">
+                            <div>
+                                <h5>Harani Singh</h5>
+                                <div class="rating">
+                                    <span>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-regular fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Stay Updated on the Latest Offers!  -->
+    <section class="newsletter-signup">
+        <h2 class="text-warning">Stay Updated on the Latest Offers!</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="quick-links">
+                <h3 class="text-warning">Quick Links</h3>
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3 class="text-warning">Follow Us</h3>
+                <a href=""><img class="rounded" src="assets/followus1.png" alt="Facebook"></a>
+                <a href=""><img class="rounded" src="assets/followus2.png" alt="Instagram"></a>
+                <a href=""><img class="rounded" src="assets/followus5.jpg" alt="Twitter"></a>
+                <a href=""><img class="rounded" src="assets/followus4.png" alt="LinkedIn"></a>
+            </div>
+            <div class="contact-info">
+                <h3 class="text-warning">Contact Us</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Travel St, Kakinada City</p>
+            </div>
+            <div class="bgnd">
+                <h3 class="text-warning">Subscribe to Our Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Modal-->
+    <div class="modal fade" id="journey" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content  border border-secondary">
+                <div class="modal-header">
+                    <h4 class="modal-title ">Payment</h4>
+                    <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-evenly">
+                        <img src="assets/payment (1).png" alt="">
+                        <img src="assets/payment (2).png" alt="">
+                        <img src="assets/payment (3).png" alt="">
+                        <img src="assets/payment (4).png" alt="">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="countMe\countMe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $("#destinations").countMe(2, 100);            //(deyal, speed)
+            $("#holidays").countMe(2, 30);
+            $("#services").countMe(2, 10);
+
+
+            // calling owl carousel
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+
+
+        });
+
+    </script>
+</body>
+
+</html>

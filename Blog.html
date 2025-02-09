@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Blog.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Blog</title>
+
+    <script src="https://kit.fontawesome.com/4f1bb0da8e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header  -->
+    <div class="card text-bg-dark">
+        <img src="https://www.easemytripacademy.com/Content/img/blog/Itisnosecretthattourismisbooming.png" />
+        <div class="card-img-overlay content">
+            <div class="container">
+                <div class="row py-2 ">
+                    <div class="d-none d-md-inline-block col-md-2">
+                        <i class="bi bi-telephone-fill px-2"></i><span>+919888572737</span>
+                    </div>
+                    <div class="d-none d-md-inline-block col-md-3">
+                        <i class="bi bi-envelope px-2"></i><span>ops@pybtravels.com</span>
+                    </div>
+                </div>
+                <div class="row py-sm-3 py-md-5">
+                    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                        <a href="./index.html" class="navbar-brand">
+                            <img class="logo_img_size d-md-none" src="assets/logo-white.png" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+                            <ul class="navbar-nav nav-underline  navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link text-white">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./destination.html" class="nav-link text-white">DESTINATIONS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./packages.html" class="nav-link text-white">PACKAGES</a>
+                                </li>
+                                <a href="./index.html" class="navbar-brand">
+                                    <img class="logo_img_size d-none d-md-inline-block" src="assets/logo-white.png"
+                                        alt="">
+                                </a>
+                                <li class="nav-item">
+                                    <a href="./AboutUs.html" class="nav-link text-white">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./Blog.html" class="nav-link active text-white">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./ContactUs.html" class="nav-link text-white">CONTACT US</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </nav>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="text-warning banner_heading">Travel Insights</h1>
+                        <p>Tips, stories, and inspiration for your next adventure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Blog Posts  -->
+    <section class="BlogPosts">
+       <div class="container">
+        <h2 class="text-warning">Latest Blog Posts</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-4 p-3">
+                <div class="blog-snippet h-100 p-3">
+                    <img src="https://touristasia.wordpress.com/wp-content/uploads/2013/09/bali-indonesia.jpg" alt="Blog Post 1">
+                    <!-- Replace with your blog image URL -->
+                    <h3>Exploring the Wonders of Bali</h3>
+                    <p>
+                        <span>Published on: January 12, 2024</span> |
+                        <span>by Jane Doe</span>
+                    </p>
+                    <p class="text-secondary">Discover the hidden gems of Bali, from stunning beaches to cultural
+                        landmarks. Your ultimate guide to an unforgettable Bali adventure!</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-3">
+                <div class="blog-snippet h-100 p-3">
+                    <img src="https://www.crossworldholidays.com/tours-travels/images/resource/best-international-travel-tips-for-first-time-travelers.jpg" alt="Blog Post 2">
+                    <!-- Replace with your blog image URL -->
+                    <h3>Top Travel Tips for First-Time Travelers</h3>
+                    <p>
+                        <span>Published on: February 22, 2024</span> |
+                        <span>by John Smith</span>
+                    </p>
+                    <p class="text-secondary">Get the best advice for your first adventure, from packing tips to
+                        navigating new destinations like a pro.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-3">
+                <div class="blog-snippet h-100 p-3">
+                    <img src="https://media.licdn.com/dms/image/v2/D5612AQFJ363rIQmArw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1736488152823?e=2147483647&v=beta&t=D_LlvxjmxjxrEeibNF5k-rANzz1sw-BBilxYY-OpXng" alt="Blog Post 3">
+                    <!-- Replace with your blog image URL -->
+                    <h3>A Culinary Journey Through Italy</h3>
+                    <p>
+                        <span>Published on: March 05, 2024</span> |
+                        <span>by Lisa Brown</span>
+                    </p>
+                    <p class="text-secondary">Embark on a mouth-watering journey through Italy's finest dishes,
+                        exploring the authentic flavors of each region.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+  
+    <section class="travel-tips-section">
+        <div class="container">
+            <h2>Quick Travel Tips</h2>
+            <div class="travel-tips-grid">
+                <!-- Tip 1: Packing Tips -->
+                <div class="tip-item">
+                    <img src="https://static.toiimg.com/photo/22749814.cms" alt="Packing Tips Icon">
+                    <h3>Packing Tips</h3>
+                    <p>Pack light and smart! Roll your clothes, use packing cubes, and always carry a small first-aid
+                        kit.</p>
+                </div>
+                <!-- Tip 2: Safety Advice -->
+                <div class="tip-item">
+                    <img src="https://blogimage.vantagefit.io/vfitimages/2024/01/The-Importance-of-Safety-Messages-in-Your-Workplace.png" alt="Safety Advice Icon">
+                    <h3>Safety Advice</h3>
+                    <p>Stay safe by keeping copies of important documents and always sharing your travel plans with
+                        someone back home.</p>
+                </div>
+                <!-- Tip 3: Currency Exchange -->
+                <div class="tip-item">
+                    <img src="https://images.prismic.io/statrys/ZoT0kx5LeNNTwvUF_forex-rate-cover.png?auto=format%2Ccompress&rect=0%2C0%2C680%2C680&w=680&h=680&fit=max" alt="Currency Exchange Icon">
+                    <h3>Currency Exchange</h3>
+                    <p>Always exchange a small amount of local currency before arriving at your destination to cover
+                        initial expenses.</p>
+                </div>
+                <!-- Tip 4: Travel Insurance -->
+                <div class="tip-item">
+                    <img src="https://www.blsinternational.com/blog/wp-content/uploads/2023/05/Travel-Insurance.jpeg" alt="Travel Insurance Icon">
+                    <h3>Travel Insurance</h3>
+                    <p>Don't leave home without it! Travel insurance covers medical emergencies, trip cancellations, and
+                        lost belongings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stay Updated on the Latest Offers!  -->
+    <section class="newsletter-signup">
+        <h2 class="text-warning">Stay Updated on the Latest Blog Posts!</h2>
+        <p class="text-secondary">Subscribe to our newsletter and never miss out on travel tips, stories, and exclusive
+            offers.</p>
+        <form action="#" method="post">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+    </section>
+
+    <section class="container-fluid p-5">
+        <h1 class="section_heading">Testimonals</h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Abhishek-Roy.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Navjot-Manmeet-.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Surya-Vrinda-Khattar-.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Amandeep-Soin.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Nikhil-Anand-Neha-Jaju.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Mandeep-Khanna.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Sumita-Ummat.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Rahul-Arpita.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Palak-Harshit-.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Salina-Uppal.jpg" alt="">
+                </div>
+                
+            </div>
+            <div class="col-4">
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/stories-edit.jpeg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Avneet-Ria-.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Shrey-Amrisha.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Ryna.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Abhoy-Sarkar.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Alankar-Narula.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Pranav-Priya.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Anuj-Bhagia.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Chita-Ranjan-Sahoo.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Ravneet-Arora.jpg" alt="">
+                </div>
+                
+            </div>
+            <div class="col-4">
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Sweta-Jhunjhunwala.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Ravi-Wadhawan.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Abhay-Nanda.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Mithun-Namrata-Sikka.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Kashish-Noor.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Mrs.-Sharma-Mrs.-Lath.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Kanav-Shivangi-.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Ajith-Lobo.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/InstaStories_09.01.jpeg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="https://pybtravels.com/wp-content/uploads/2021/03/Akshat-Juneja.jpg" alt="">
+                </div>
+                <div class="col-12">
+                    <img class="w-100 py-3" src="" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="quick-links">
+                <h3 class="text-warning">Quick Links</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3 class="text-warning">Follow Us</h3>
+                <a href="#"><img class="rounded" src="assets/followus1.png" alt="Facebook"></a>
+                <!-- Replace with your icon URLs -->
+                <a href="#"><img class="rounded" src="assets/followus2.png" alt="Instagram"></a>
+                <a href="#"><img class="rounded" src="assets/followus5.jpg" alt="Twitter"></a>
+                <a href="#"><img class="rounded" src="assets/followus4.png" alt="LinkedIn"></a>
+            </div>
+            <div class="contact-info">
+                <h3 class="text-warning">Contact Us</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Travel St, Adventure City</p>
+            </div>
+            <div class="bgnd">
+                <h3 class="text-warning">Subscribe to Our Newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
